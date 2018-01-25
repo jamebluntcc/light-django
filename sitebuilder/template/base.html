@@ -1,0 +1,13 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Rapid ProtoTypes{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/site.css' %}" type="text/css">
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
